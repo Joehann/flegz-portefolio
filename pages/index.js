@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.scss";
 import Flegz from "../public/img/flegz-1.jpg";
 import { useState, useEffect } from "react";
@@ -36,7 +37,9 @@ export default function Home() {
           Composer <span>•</span> Musician <span>•</span> Arranger
         </h2>
 
-        <button>Enter</button>
+        <Link href="/home">
+          <button>Enter</button>
+        </Link>
 
         <svg>
           <defs>
