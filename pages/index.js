@@ -3,14 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.scss";
 import Flegz from "../public/img/flegz-1.jpg";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function Home() {
   const [mousePosition, setMousePosition] = useState({ left: 50, top: 50 });
 
   function handleMouseMove(event) {
     setMousePosition({ left: event.pageX, top: event.pageY });
-    // console.log(mousePosition);
   }
 
   return (
