@@ -32,7 +32,7 @@ export default function Home() {
         }}
       ></div>
       <div className={styles.home}>
-        <Image src={Flegz} alt="Flegz"></Image>
+        <Image src={Flegz} alt="Flegz" />
 
         <h1>Flegz&nbsp;Music</h1>
         <h2>
