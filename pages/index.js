@@ -40,7 +40,7 @@ export default function Home() {
           &nbsp;Arranger
         </h2>
 
-        <Link href="/home">
+        <Link href="/main">
           <button>Enter</button>
         </Link>
 
